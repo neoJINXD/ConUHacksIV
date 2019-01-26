@@ -1,0 +1,11 @@
+#Dont track these files
+#Library/CurrentLayout.dwlt
+#Library/LastSceneManagerSetup.txt
+#Library/EditorUserSEttings.asset
+
+Library/
+Temp/
+Logs/
+obj/
+Packages/
+ProjectSettings/

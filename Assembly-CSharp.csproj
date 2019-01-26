@@ -60,7 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PLayerMovement.cs" />
+    <Compile Include="Assets\Scripts\boundary.cs" />
     <Compile Include="Assets\Scripts\BulletScriptLeft.cs" />
     <Compile Include="Assets\Scripts\BulletScriptRight.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />

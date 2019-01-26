@@ -250,6 +250,7 @@ GameObject:
   - component: {fileID: 1053032723}
   - component: {fileID: 1053032722}
   - component: {fileID: 1053032719}
+  - component: {fileID: 1053032724}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -387,3 +388,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &1053032724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053032718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd1a5d68bb12db44bfe316202957769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

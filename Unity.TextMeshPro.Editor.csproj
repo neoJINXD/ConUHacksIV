@@ -717,6 +717,9 @@
     <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Unity Samole UI\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Unity Samole UI\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\Unity Samole UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Packages\com.unity.analytics\DataPrivacy\Unity.Analytics.DataPrivacy.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Editor\Unity.Analytics.StandardEvents\Unity.Analytics.StandardEvents.EditorTests.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Runtime\DataPrivacy\Unity.Analytics.DataPrivacy.Tests.asmdef" />

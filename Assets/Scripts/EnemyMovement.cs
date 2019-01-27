@@ -5,11 +5,11 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     Transform targetPos;
-    int MoveSpeed = 4;
+    int MoveSpeed;
  
     void Start()
     {
-   
+        MoveSpeed = Random.Range(2,6);
     }
  
     void Update()

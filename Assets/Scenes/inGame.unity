@@ -542,6 +542,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f40d4114ba7069a4f8b815fd7c63229a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boss:
+  - {fileID: 1039769477949416515, guid: 8831defb52abe034da98159cb8416f2b, type: 3}
+  - {fileID: 1039769477949416515, guid: 8831defb52abe034da98159cb8416f2b, type: 3}
   enemyObjects:
   - {fileID: 4549006270108501217, guid: 442f52e2086a9004d9c636abcd178e4f, type: 3}
   - {fileID: 4565692701280090235, guid: e2d599799505ced4b98fc3b10d049642, type: 3}

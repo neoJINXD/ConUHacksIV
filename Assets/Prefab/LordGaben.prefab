@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 945688440253674523}
   - component: {fileID: 4870005139356916242}
-  - component: {fileID: 4777145230699676600}
   - component: {fileID: 786818963318816360}
   - component: {fileID: 6546347298158921413}
+  - component: {fileID: 1010153775740140355}
   m_Layer: 8
   m_Name: LordGaben
   m_TagString: Boss
@@ -82,32 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4777145230699676600
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039769477949416515}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 1.12, y: 0.63, z: 1.28, w: 0.63}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.19, y: 8}
-    newSize: {x: 7.19, y: 8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.19, y: 8}
-  m_EdgeRadius: 0
 --- !u!50 &786818963318816360
 Rigidbody2D:
   serializedVersion: 4
@@ -141,3 +115,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a65b90d7ab04e4ba4d19a38d6e0315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!70 &1010153775740140355
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039769477949416515}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.123288155, y: 0.11301422}
+  m_Size: {x: 4.518758, y: 6.4589005}
+  m_Direction: 0

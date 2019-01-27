@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5171564074602741870}
   - component: {fileID: 7885313048267239201}
   - component: {fileID: 1526510860781692520}
+  - component: {fileID: 6673862498021544866}
   m_Layer: 8
   m_Name: Cavities
   m_TagString: Untagged
@@ -157,3 +158,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f0a88ee0c7c804081216f6678ca2e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &6673862498021544866
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4565692701280090235}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 59c2f68e4dd743a439e33c73f4f2d90f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

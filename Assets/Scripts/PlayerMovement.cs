@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject bulletRight;
-    public GameObject pos1;
-    public GameObject bulletLeft;
-    public GameObject pos2;
+   
     public float maxSpeed = 10000.0f;
 
     public Rigidbody2D rb;
@@ -20,18 +17,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            
-            GameObject bullet02 = (GameObject)Instantiate(bulletLeft);
-            bullet02.transform.position = pos2.transform.position;
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            
-            GameObject bullet01 = (GameObject)Instantiate(bulletRight);
-            bullet01.transform.position = pos1.transform.position;
-        }
+     
         
     }
     void FixedUpdate()

@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 8626848207689701140}
   - component: {fileID: 8626848207689701141}
   - component: {fileID: 8626848207689701128}
+  - component: {fileID: 8955353595299535799}
   m_Layer: 0
   m_Name: testPlayer
   m_TagString: Untagged
@@ -180,3 +181,15 @@ MonoBehaviour:
   pos2: {fileID: 8626848207342334764}
   maxSpeed: 10000
   rb: {fileID: 8626848207689701140}
+--- !u!114 &8955353595299535799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8626848207689701129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a806e6e1026ddd3408d4654a8c0d5cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

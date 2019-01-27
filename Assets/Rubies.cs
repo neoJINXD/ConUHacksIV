@@ -21,7 +21,10 @@ public class Rubies : MonoBehaviour
     {
         for (int i = 0; i < rubies.Length; i++)
         {
-
+            if (i < numOfRubies)
+            {
+                rubies[i].enabled = true;
+            }
         }
     }
 }

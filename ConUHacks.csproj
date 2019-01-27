@@ -633,6 +633,7 @@
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
     <Compile Include="Assets\Scripts\BossMovement.cs" />
+    <Compile Include="Assets\Scripts\boundaries.cs" />
     <Compile Include="Assets\Scripts\boundary.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\DestroyByContact.cs" />

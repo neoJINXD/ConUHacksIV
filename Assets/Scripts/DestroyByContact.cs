@@ -10,4 +10,5 @@ public class DestroyByContact : MonoBehaviour
         Destroy(gameObject);
         FindObjectOfType<gameManager>().gameOver();
     }
+
 }

@@ -5,13 +5,11 @@ using UnityEngine;
 public class EnemyMovementChase : MonoBehaviour
 {
     Transform targetPos;
-    int MoveSpeed = Random.Range(4,8);
-        
-    #endregion;
+    int MoveSpeed;
  
     void Start()
     {
-   
+        MoveSpeed = Random.Range(2,6);
     }
  
     void Update()

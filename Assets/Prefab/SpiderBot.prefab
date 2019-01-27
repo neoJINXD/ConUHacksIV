@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1901516519680226638}
   - component: {fileID: 6525127139342083864}
   - component: {fileID: 2308380152624711100}
+  - component: {fileID: 6570811500228138458}
   m_Layer: 8
   m_Name: SpiderBot
   m_TagString: Untagged
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6937849992330991934}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30ade525a394e8b4ab6ee63e69443878, type: 3}
   m_Name: 
@@ -155,5 +156,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29a65b90d7ab04e4ba4d19a38d6e0315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6570811500228138458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6937849992330991934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f0a88ee0c7c804081216f6678ca2e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

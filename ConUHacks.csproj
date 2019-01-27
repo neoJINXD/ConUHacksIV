@@ -628,7 +628,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
     <Compile Include="Assets\Scripts\BossMovement.cs" />
     <Compile Include="Assets\Scripts\boundaries.cs" />
@@ -642,13 +641,29 @@
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementChase.cs" />
     <Compile Include="Assets\Scripts\gameManager.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy1.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy2.cs" />
+    <Compile Include="Assets\Scripts\Starting.cs" />
     <Compile Include="Assets\Scripts\WeaponLeft.cs" />
     <Compile Include="Assets\Scripts\Weapons.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Unity Samole UI\Scripts\TiltWindow.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Unity Samole UI\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Unity Samole UI\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\Unity Samole UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Packages\com.unity.analytics\DataPrivacy\Unity.Analytics.DataPrivacy.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Editor\Unity.Analytics.StandardEvents\Unity.Analytics.StandardEvents.EditorTests.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Runtime\DataPrivacy\Unity.Analytics.DataPrivacy.Tests.asmdef" />

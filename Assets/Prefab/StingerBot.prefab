@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4743468034665356724}
   - component: {fileID: 4781172984181587631}
   - component: {fileID: 4151585818164837559}
+  - component: {fileID: 7046720484263656652}
   m_Layer: 8
   m_Name: StingerBot
   m_TagString: Untagged
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4743468034665356682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30ade525a394e8b4ab6ee63e69443878, type: 3}
   m_Name: 
@@ -165,5 +166,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29a65b90d7ab04e4ba4d19a38d6e0315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7046720484263656652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4743468034665356682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f0a88ee0c7c804081216f6678ca2e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

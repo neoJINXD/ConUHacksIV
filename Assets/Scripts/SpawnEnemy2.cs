@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SpawnEnemy2 : MonoBehaviour
 {
-
+    public GameObject[] boss;
     public GameObject[] enemyObjects;
     int enemyCounter=0;
-    int maximum = 15;
-    float maxSpawnRateInSeconds = 5f;
+    int maximum = 1;
+    float maxSpawnRateInSeconds = 4.5f;
     // Start is called before the first frame update;
     void Start()
     {
@@ -27,14 +27,18 @@ public class SpawnEnemy2 : MonoBehaviour
    {
        float spawnInSeconds;
        
-        if(maxSpawnRateInSeconds > 1f)
-            spawnInSeconds = Random.Range(1f, maxSpawnRateInSeconds);
+        if(maxSpawnRateInSeconds > 0.5f)
+            spawnInSeconds = Random.Range(0.5f, maxSpawnRateInSeconds);
         else
-            spawnInSeconds = 1f;
+            spawnInSeconds = 0.5f;
 
         if (enemyCounter >= maximum)
-            CancelInvoke("spawnEnemy");
+        {
+                CancelInvoke("spawnEnemy");
+                SpawnBoss.comeOut(boss);
+        }
         else
             Invoke ("spawnEnemy", spawnInSeconds);
    }
+
 }

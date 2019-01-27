@@ -9,7 +9,7 @@ public class EnemyMovementChase : MonoBehaviour
  
     void Start()
     {
-        MoveSpeed = Random.Range(2,6);
+        MoveSpeed = Random.Range(2,5);
     }
  
     void Update()

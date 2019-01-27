@@ -634,7 +634,6 @@
     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\screenBounds.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy1.cs" />
   </ItemGroup>
   <ItemGroup>

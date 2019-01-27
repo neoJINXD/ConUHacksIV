@@ -19,6 +19,6 @@ public class gameManager : MonoBehaviour
 
     void gameOverScreen()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

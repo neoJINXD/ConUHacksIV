@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 121494950}
   - component: {fileID: 121494949}
   - component: {fileID: 121494948}
+  - component: {fileID: 121494951}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -305,6 +306,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121494946}
   m_CullTransparentMesh: 0
+--- !u!114 &121494951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121494946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f7bf0ffb440f245ad3dd6217c4d0e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  begin: {fileID: 0}
 --- !u!1 &603051322
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,6 +330,7 @@ GameObject:
   - component: {fileID: 603051325}
   - component: {fileID: 603051324}
   - component: {fileID: 603051323}
+  - component: {fileID: 603051326}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -354,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 121494946}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &603051325
@@ -371,6 +386,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603051326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603051322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f7bf0ffb440f245ad3dd6217c4d0e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  begin: {fileID: 121494948}
 --- !u!1 &907407362
 GameObject:
   m_ObjectHideFlags: 0

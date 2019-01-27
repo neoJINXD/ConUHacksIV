@@ -20,16 +20,19 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("b"))
+        if (Input.GetMouseButtonDown(0))
         {
+            
             GameObject bullet02 = (GameObject)Instantiate(bulletLeft);
             bullet02.transform.position = pos2.transform.position;
         }
-        if (Input.GetKeyDown("space"))
+        if (Input.GetMouseButtonDown(1))
         {
+            
             GameObject bullet01 = (GameObject)Instantiate(bulletRight);
             bullet01.transform.position = pos1.transform.position;
         }
+        
     }
     void FixedUpdate()
     {

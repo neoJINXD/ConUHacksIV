@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 3713735823550447112}
   - component: {fileID: 2688046345069766772}
   - component: {fileID: 5505414048714142418}
-  - component: {fileID: 4635376923484144310}
-  m_Layer: 0
+  - component: {fileID: 193771062595404838}
+  - component: {fileID: 1908548582161068947}
+  m_Layer: 8
   m_Name: CyborgBoss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +143,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4a4783cd4cc5b745a18cb1e6131a52a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4635376923484144310
+--- !u!114 &193771062595404838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8558067470565962659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d45caf3cf7e1742885e23b2b6068a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1908548582161068947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

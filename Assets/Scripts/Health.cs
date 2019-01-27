@@ -4,8 +4,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public int curHealth;
-    public int maxHealth=100;
+    public static int curHealth;
+    public int maxHealth=5;
 
 
     void Start()
@@ -17,13 +17,13 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (curHealth == 0)
+        {
+            Die();
+        }
     }
     void Die()
     {
-        if (curHealth == 0)
-        {
-
-        }
+        FindObjectOfType<gameManager>().gameOver();
     }
 }

@@ -7,7 +7,7 @@ public class SpawnEnemy2 : MonoBehaviour
     public GameObject[] boss;
     public GameObject[] enemyObjects;
     int enemyCounter=0;
-    int maximum = 2;
+    int maximum = 10;
     float maxSpawnRateInSeconds = 4.5f;
     // Start is called before the first frame update;
     void Start()

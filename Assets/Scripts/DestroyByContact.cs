@@ -9,14 +9,10 @@ public class DestroyByContact : MonoBehaviour
     {
         Destroy(other.gameObject);
         Destroy(gameObject);
-    }
-
-    public bool update()
-    {
-        return (killedCounter == 25);
-        
         Score.scoreValue++;
     }
+
+    
 
    
 

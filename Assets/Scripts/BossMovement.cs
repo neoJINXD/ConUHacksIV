@@ -18,7 +18,7 @@ public class BossMovement : MonoBehaviour
         targetPos = GameObject.FindWithTag("Player").transform; 
         var distance = Vector2.Distance(transform.position, targetPos.position);
 
-        if (distance > 25)
+        if (distance > 18)
             transform.position = Vector2.MoveTowards(transform.position, targetPos.position, step);
         /* else
             {

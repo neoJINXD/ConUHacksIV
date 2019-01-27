@@ -173,10 +173,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c24c646e23fef59488484dcf9992e0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletRight: {fileID: 1465954738416811204, guid: ab387c686aa57454c9fcaae6e7c34658,
+  bulletRight: {fileID: 6802915654128479333, guid: 03c872dcaffddc148b6a31fa9aba5df2,
     type: 3}
   pos1: {fileID: 8626848207342334764}
-  bulletLeft: {fileID: 8789467417437906742, guid: fcb98325ec7a0a84d9aac52a1b06d9d3,
+  bulletLeft: {fileID: 2584720835346349881, guid: 03f546dcb959d6a49a69180915d00948,
     type: 3}
   pos2: {fileID: 8626848207342334764}
   maxSpeed: 10000

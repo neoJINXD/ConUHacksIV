@@ -628,22 +628,25 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\bullet.cs" />
-    <Compile Include="Assets\BulletLeft.cs" />
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
     <Compile Include="Assets\Scripts\BossMovement.cs" />
     <Compile Include="Assets\Scripts\boundaries.cs" />
     <Compile Include="Assets\Scripts\boundary.cs" />
+    <Compile Include="Assets\Scripts\bullet.cs" />
+    <Compile Include="Assets\Scripts\BulletLeft.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
+    <Compile Include="Assets\Scripts\End.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementChase.cs" />
+    <Compile Include="Assets\Scripts\gameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy1.cs" />
-    <Compile Include="Assets\WeaponLeft.cs" />
-    <Compile Include="Assets\Weapons.cs" />
+    <Compile Include="Assets\Scripts\SpawnEnemy2.cs" />
+    <Compile Include="Assets\Scripts\WeaponLeft.cs" />
+    <Compile Include="Assets\Scripts\Weapons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.analytics\DataPrivacy\Unity.Analytics.DataPrivacy.asmdef" />

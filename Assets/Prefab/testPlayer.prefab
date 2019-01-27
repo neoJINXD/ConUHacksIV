@@ -104,8 +104,8 @@ GameObject:
   - component: {fileID: 8626848207689701128}
   - component: {fileID: 8955353595299535799}
   - component: {fileID: 4596720255406403623}
-  - component: {fileID: 8784243140150372245}
-  - component: {fileID: 5175079196007565431}
+  - component: {fileID: 3579376682441802124}
+  - component: {fileID: 6251502905388648955}
   m_Layer: 0
   m_Name: testPlayer
   m_TagString: Untagged
@@ -241,7 +241,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.14168362, y: 0.6700244}
   m_Size: {x: 4.064177, y: 5.1589494}
   m_Direction: 0
---- !u!114 &8784243140150372245
+--- !u!114 &3579376682441802124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,13 +250,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8626848207689701129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f4fd333fc01714ba5ae895b13585f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 64caa51c4bd89c44280cbcae495537b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Firepoint: {fileID: 5483723288601684628}
   bulletPrefab: {fileID: 1379340667873089912, guid: eb5e5f022a5aee846aabd2dc5cb364fa,
     type: 3}
---- !u!114 &5175079196007565431
+--- !u!114 &6251502905388648955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8626848207689701129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e818d80f8ff964687b622c57658afd, type: 3}
+  m_Script: {fileID: 11500000, guid: 1026ab7ff6c96834abcb7697be8c402c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Firepoint: {fileID: 3562033287799262834}

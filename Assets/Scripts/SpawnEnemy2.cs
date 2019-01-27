@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnEnemy1 : MonoBehaviour
+public class SpawnEnemy2 : MonoBehaviour
 {
-    public GameObject enemy1Prefab;
+
+    public GameObject[] enemyObjects;
     int enemyCounter=0;
-    int maximum = 5;
+    int maximum = 15;
     float maxSpawnRateInSeconds = 5f;
     // Start is called before the first frame update;
     void Start()
@@ -16,7 +17,7 @@ public class SpawnEnemy1 : MonoBehaviour
 
     void spawnEnemy()
     {
-        GameObject a = Instantiate(enemy1Prefab) as GameObject;
+        GameObject a = Instantiate(enemyObjects[UnityEngine.Random.Range(0, enemyObjects.Length - 1)]) as GameObject;
         a.transform.position = new Vector2 (Random.Range (-6.5f, 6.5f), Random.Range (-4.3f, 4.3f));
         enemyCounter++;
         scheduleNextEnemySpawn();

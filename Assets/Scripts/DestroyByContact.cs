@@ -8,8 +8,11 @@ public class DestroyByContact : MonoBehaviour
     {
         Destroy(other.gameObject);
         Destroy(gameObject);
-
         
+        Score.scoreValue++;
+        
+
+
     }
 
    

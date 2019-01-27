@@ -13,7 +13,14 @@ public class Starting : MonoBehaviour
         begin.onClick.AddListener(TaskOnClick);
     }
 
-   
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     void TaskOnClick()
         {
             SceneManager.LoadScene(1);

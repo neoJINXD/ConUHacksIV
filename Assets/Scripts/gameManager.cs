@@ -12,6 +12,11 @@ public class gameManager : MonoBehaviour
         {
             FindObjectOfType<gameManager>().gameOver();
         }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
     public void gameOver()
     {

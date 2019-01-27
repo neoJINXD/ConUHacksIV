@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     Transform targetPos;
-    int MoveSpeed = 4;
+    int MoveSpeed = Random.Range(3,9);
  
     void Start()
     {

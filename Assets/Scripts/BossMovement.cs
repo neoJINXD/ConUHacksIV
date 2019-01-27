@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossMovement : MonoBehaviour
 {
     Transform targetPos;
-    int MoveSpeed = 7;
+    int MoveSpeed = 9;
  
     void Start()
     {

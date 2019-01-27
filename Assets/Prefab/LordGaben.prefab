@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 945688440253674523}
   - component: {fileID: 4870005139356916242}
   - component: {fileID: 786818963318816360}
-  - component: {fileID: 6546347298158921413}
   - component: {fileID: 5985683680122305750}
   - component: {fileID: 7364417075249262039}
   - component: {fileID: 3315498014259275689}
+  - component: {fileID: 4205436167495484245}
+  - component: {fileID: 491285022257607769}
   m_Layer: 8
   m_Name: LordGaben
   m_TagString: Boss
@@ -108,18 +109,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6546347298158921413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039769477949416515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a65b90d7ab04e4ba4d19a38d6e0315, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5985683680122305750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +154,34 @@ MonoBehaviour:
   Firepoint: {fileID: 8094463594854836431}
   bulletPrefab: {fileID: 263467797887632554, guid: f54af1846fbc2724a9b4b41b4b805fb2,
     type: 3}
+--- !u!70 &4205436167495484245
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039769477949416515}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000014305115, y: -0.05983734}
+  m_Size: {x: 4.0770683, y: 6.683563}
+  m_Direction: 0
+--- !u!114 &491285022257607769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039769477949416515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9dbd3e79ba43249a12931b6918ab8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3983871531989942623
 GameObject:
   m_ObjectHideFlags: 0

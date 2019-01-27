@@ -633,6 +633,7 @@
     <Compile Include="Assets\Scripts\BossMovement.cs" />
     <Compile Include="Assets\Scripts\boundaries.cs" />
     <Compile Include="Assets\Scripts\boundary.cs" />
+    <Compile Include="Assets\Scripts\BoxHealth.cs" />
     <Compile Include="Assets\Scripts\bullet.cs" />
     <Compile Include="Assets\Scripts\BulletLeft.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />

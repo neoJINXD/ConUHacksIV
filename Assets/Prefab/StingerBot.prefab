@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4781172984181587631}
   - component: {fileID: 4151585818164837559}
   - component: {fileID: 7046720484263656652}
+  - component: {fileID: 8826598585185760317}
   m_Layer: 8
   m_Name: StingerBot
   m_TagString: Untagged
@@ -180,3 +181,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f0a88ee0c7c804081216f6678ca2e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &8826598585185760317
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4743468034665356682}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 01e79a5387d68f445b81ac8ab811d149, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

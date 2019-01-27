@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5505414048714142418}
   - component: {fileID: 193771062595404838}
   - component: {fileID: 1908548582161068947}
+  - component: {fileID: 972049440174498438}
   m_Layer: 8
   m_Name: CyborgBoss
   m_TagString: Untagged
@@ -167,3 +168,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a65b90d7ab04e4ba4d19a38d6e0315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &972049440174498438
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8558067470565962659}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e333c0bfd246a044ea6a6fa32ee66ede, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

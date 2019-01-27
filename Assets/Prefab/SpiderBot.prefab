@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6525127139342083864}
   - component: {fileID: 2308380152624711100}
   - component: {fileID: 6570811500228138458}
+  - component: {fileID: 2376928390551145627}
   m_Layer: 8
   m_Name: SpiderBot
   m_TagString: Untagged
@@ -170,3 +171,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f0a88ee0c7c804081216f6678ca2e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2376928390551145627
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6937849992330991934}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 212e1725509cfd347bae9c7b74ef166e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

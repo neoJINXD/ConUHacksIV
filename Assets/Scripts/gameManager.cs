@@ -6,6 +6,13 @@ using UnityEngine.SceneManagement;
 public class gameManager : MonoBehaviour
 {
     bool gameIsOver = false;
+    private void Update()
+    {
+        if (!GameObject.FindWithTag("Player"))
+        {
+            FindObjectOfType<gameManager>().gameOver();
+        }
+    }
     public void gameOver()
     {
         if (gameIsOver == false)
